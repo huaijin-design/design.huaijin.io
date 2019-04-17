@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live"
 import * as Huaijin from "huaijin"
 import styles from "./styles.module.sass"
@@ -22,6 +23,10 @@ const Playground = ({ children }) => {
       </LiveProvider>
     </section>
   )
+}
+
+Playground.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 export default Playground

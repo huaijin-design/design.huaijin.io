@@ -1,0 +1,30 @@
+@import "../../themes/variable.sass"
+
+.playground
+  margin: 1em 0
+  padding: 1px 0
+  border: 1px dashed $grey
+  transition: 0.3s ease-in-out
+  &:hover
+    border-style: solid
+    box-shadow: 0 2px 8px $grey
+
+  > .playground-live
+    display: flex
+    flex-wrap: wrap
+
+    .playground-preview
+      width: 50%
+      padding: 1.2em 1.4em
+      border-right: 1px dashed $grey
+
+    \:global(.hj-markdown-pre)
+        width: 50%
+        border-radius: 0
+        background: none
+
+    .playground-error
+      width: 100%
+      padding: .1em
+      text-align: center
+      color: $primary

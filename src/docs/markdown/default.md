@@ -26,7 +26,7 @@ desc: 基于 [`markdown-to-jsx`](https://github.com/probablyup/markdown-to-jsx)
 
   ---
 
-  [title](https://huaijin.io)
+  [title](https://design.huaijin.io)
 
   ![alt text](/static/logo.png)
 

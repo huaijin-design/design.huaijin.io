@@ -8,7 +8,9 @@ import Header from "../header"
 import Slide from "../slide"
 import styles from "./styles.module.sass"
 
-const theme = {}
+const theme = {
+  // "color-primary": "0,0,255",
+}
 
 const Layout = ({ children, location }) => (
   <Huaijin theme={theme}>
